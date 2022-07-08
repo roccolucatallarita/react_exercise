@@ -1,0 +1,50 @@
+{
+  "name": "exc2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react-dom": "^18.0.0",
+    "axios": "^0.27.2",
+    "cra-template-typescript-redux": "0.3.13",
+    "react": "^18.2.0",
+    "react-axios": "^2.0.6",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "fix": "eslint src --ext .js,.jsx,.ts,.tsx  --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.4",
+    "@types/react-transition-group": "4.2.4",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "@types/testing-library__react": "^10.2.0",
+    "@zarconontol/enzyme-adapter-react-18": "^0.7.3",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5"
+  }
+}
